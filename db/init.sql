@@ -22,6 +22,6 @@ CREATE TABLE city (
   CONSTRAINT city_ibfk_1 FOREIGN KEY (country_code) REFERENCES country (code)
 );
 
-COPY country FROM '/Users/trueshot/Downloads/Country.csv' DELIMITER ',' CSV HEADER;
+COPY country FROM 'C:\Users\Benja\Desktop\CS 6320\CS6320\db\Country.csv' DELIMITER ',' CSV HEADER;
 
-COPY city FROM '/Users/trueshot/Downloads/City.csv' DELIMITER ',' CSV HEADER;
+COPY city FROM "C:\Users\Benja\Desktop\CS 6320\CS6320\db\City.csv" DELIMITER ',' CSV HEADER;

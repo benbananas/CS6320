@@ -1,4 +1,4 @@
-"Code","SurfaceArea","IndepYear","Population","LifeExpectancy","GNP","GNPOld","Capital"
+"code","surface_area","indep_year","population","life_expectancy","gnp","gnp_old","capital"
 ABW,193.0,,103000,78.4,828.0,793.0,129
 AFG,652090.0,1919,22720000,45.9,5976.0,,1
 AGO,1246700.0,1975,12878000,38.3,6648.0,7984.0,56
